@@ -42,18 +42,18 @@ public class JsonParser {
      * @param <T> Type
      * @return Object
      * @throws IOException
-     */
-    public static <T> T toObjectFromJson(String json,
-                                         Class clazz) throws IOException {
-
-
-           ObjectMapper objectMapper = new ObjectMapper();
-           File file = new File(json);
-        //    clazz clz =  objectMapper.readValue(file, clazz.class);
-
-
-
-    }
+//     */
+//    public static <T> T toObjectFromJson(String json,
+//                                         Class clazz) throws IOException {
+//
+//
+//           ObjectMapper objectMapper = new ObjectMapper();
+//           File file = new File(json);
+//        //    clazz clz =  objectMapper.readValue(file, clazz.class);
+//
+//
+//
+//    }
 
 
 
