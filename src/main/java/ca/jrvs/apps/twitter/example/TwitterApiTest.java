@@ -1,5 +1,6 @@
-package ca.jrvs.apps.ca.jrvs.apps.twitter.example;
+package ca.jrvs.apps.twitter.example;
 
+import ca.jrvs.apps.twitter.example.dto.Company;
 import oauth.signpost.OAuthConsumer;
 import oauth.signpost.commonshttp.CommonsHttpOAuthConsumer;
 import org.apache.http.HttpResponse;
@@ -12,14 +13,15 @@ import sun.jvmstat.perfdata.monitor.PerfStringVariableMonitor;
 import java.util.Arrays;
 
 public class TwitterApiTest {
-
     private static String CONSUMER_KEY = System.getenv("CONSUMER_KEY");
     private static String CONSUMER_SECRET = System.getenv("CONSUMER_SECRET");
     private static String ACCESS_TOKEN = System.getenv("ACCESS_TOKEN");
     private static String TOKEN_SECRET = System.getenv("TOKEN_SECRET");
 
     public static void main(String[] args) throws Exception {
-
+//
+        JsonParser jsonParser = new JsonParser();
+        Company company = new Company();
         OAuthConsumer consumer = new CommonsHttpOAuthConsumer(CONSUMER_KEY, CONSUMER_SECRET);
         consumer.setTokenWithSecret(ACCESS_TOKEN, TOKEN_SECRET);
 
@@ -31,5 +33,8 @@ public class TwitterApiTest {
         HttpClient httpClient = new DefaultHttpClient();
         HttpResponse response = httpClient.execute(request);
         System.out.println(EntityUtils.toString(response.getEntity()));
+
     }
 }
+
+
