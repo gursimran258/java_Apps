@@ -33,7 +33,7 @@ public class ApacheHttpHelper implements HttpHelper {
 
     public HttpResponse httpDelete(URI uri, String id) {
       //  return null;
-        HttpPost requestDel  = new HttpPost(uri.toString()+id);
+        HttpPost requestDel  = new HttpPost(uri);
         Arrays.stream(requestDel.getAllHeaders()).forEach(System.out::println);
         HttpClient httpClient = new DefaultHttpClient();
         try {
@@ -57,8 +57,8 @@ public class ApacheHttpHelper implements HttpHelper {
     @Override
     public HttpResponse httpPost(URI uri) {
         PercentEscaper percentEscaper = new PercentEscaper("", false);
-        String status = "hi I am there";
-        HttpPost request1 = new HttpPost(uri.toString() + percentEscaper.escape(status));
+       // String status = "hi I am there";
+        HttpPost request1 = new HttpPost(uri.toString());
         Arrays.stream(request1.getAllHeaders()).forEach(System.out::println);
         HttpClient httpClient = new DefaultHttpClient();
 
@@ -74,6 +74,7 @@ public class ApacheHttpHelper implements HttpHelper {
 
         try {
             HttpResponse response = httpClient.execute(request1);
+            return response;
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -107,6 +108,8 @@ public class ApacheHttpHelper implements HttpHelper {
 
         return null;
     }
+
+
 
     public void customerSign(HttpRequest request) {
         try {

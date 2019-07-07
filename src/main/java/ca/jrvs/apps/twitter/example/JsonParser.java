@@ -1,9 +1,11 @@
 package ca.jrvs.apps.twitter.example;
 
 import ca.jrvs.apps.twitter.example.dto.Company;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
+import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,10 +21,18 @@ public class JsonParser {
     public static String toJson(Object object, boolean
             prettyJson, boolean includeNullValues) throws
             JsonProcessingException {
-        ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
-        String json = ow.writeValueAsString(object);
-        return json;
+//        ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+//        String json = ow.writeValueAsString(object);
+//        return json;
 
+        ObjectMapper mapper = new ObjectMapper();
+        if(!includeNullValues)
+            mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+            if(prettyJson)
+                mapper.enable(SerializationFeature.INDENT_OUTPUT);
+
+            return mapper.writeValueAsString(mapper);
+        }
     }
 
 //    public static String toJsonn() throws
@@ -58,4 +68,4 @@ public class JsonParser {
 
 
 
-}
+

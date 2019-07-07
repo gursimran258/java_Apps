@@ -123,5 +123,4 @@ public class Financial {
     public String toString() {
         return new ToStringBuilder(this).append("reportDate", reportDate).append("grossProfit", grossProfit).append("costOfRevenue", costOfRevenue).append("operatingRevenue", operatingRevenue).append("totalRevenue", totalRevenue).append("operatingIncome", operatingIncome).append("netIncome", netIncome).append("additionalProperties", additionalProperties).toString();
     }
-
 }
