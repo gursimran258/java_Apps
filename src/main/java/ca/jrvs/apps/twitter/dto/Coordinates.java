@@ -3,6 +3,8 @@ package ca.jrvs.apps.twitter.dto;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
+
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -58,6 +60,16 @@ public class Coordinates {
     @Override
     public String toString() {
         return new ToStringBuilder(this).append("type", type).append("coordinates", coordinates).append("additionalProperties", additionalProperties).toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Coordinates)) return false;
+        Coordinates that = (Coordinates) o;
+        return getType().equals(that.getType()) &&
+                getCoordinates().equals(that.getCoordinates()) &&
+                getAdditionalProperties().equals(that.getAdditionalProperties());
     }
 
 }
