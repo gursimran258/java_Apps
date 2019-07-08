@@ -69,7 +69,7 @@ public class TwitterRestDao implements CrdRepository<Tweet, String> {
         try {
             uri = getShowURI(id);
         } catch (URISyntaxException e) {
-            throw  new IllegalArgumentException("unable to construct URI", e)
+            throw  new IllegalArgumentException("unable to construct URI", e);
         }
 
 
@@ -155,8 +155,8 @@ public class TwitterRestDao implements CrdRepository<Tweet, String> {
 
     protected URI getPostURI(Tweet tweet) throws URISyntaxException, UnsupportedEncodingException {
         String text = tweet.getText();
-        Double longitude = tweet.getCoordinates().getCoordinates().get(1);
-        Double latitude = tweet.getCoordinates().getCoordinates().get(2);
+        Double longitude = tweet.getCoordinates().getCoordinates().get(0);
+        Double latitude = tweet.getCoordinates().getCoordinates().get(1);
 
         StringBuilder sb = new StringBuilder();
         sb.append(API_URI)

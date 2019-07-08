@@ -22,13 +22,16 @@ public class TwitterServiceImp implements TwitterService {
         List<Double> coordinates = new ArrayList<>();
         coordinates.add(longitude);
         coordinates.add(latitude);
-
-        Tweet tweet = new Tweet();
-        tweet.setText(text);
-        Coordinates coordinates1= new Coordinates();
-        coordinates1.setCoordinates(coordinates);
-        tweet.setCoordinates(coordinates1);
-        crdRepository.save(tweet);
+         if(validatePostTweet(text, latitude, longitude)) {
+             Tweet tweet = new Tweet();
+             tweet.setText(text);
+             Coordinates coordinates1= new Coordinates();
+             coordinates1.setCoordinates(coordinates);
+             tweet.setCoordinates(coordinates1);
+             crdRepository.save(tweet);
+         } else {
+             System.out.println("this tweet is not valid");
+         }
     }
 
     @Override
@@ -45,5 +48,14 @@ public class TwitterServiceImp implements TwitterService {
         crdRepository.deleteById(ids[0]);
 //    TwitterRestDao twitterRestDao = new TwitterRestDao();
 //    Tweet tweet = twitterRestDao.deleteById(ids[0]);
+    }
+
+
+    public static Boolean validatePostTweet(String text, Double longitude, Double latitude) {
+        int length = text.length();
+        if(length <= 150 &&   -180 <longitude && longitude < 180 && -180 <latitude && latitude<180) {
+            return true;
+        }
+        return false;
     }
 }

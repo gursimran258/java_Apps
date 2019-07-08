@@ -2,25 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d728b52-2c7d-4d0b-acd5-3ad489cc34e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/HttpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/HttpHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Tweet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/JsonParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/TwitterApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/TwitterApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/dto/Financial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/dto/Financial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/CustomerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/DatabaseConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/DatabaseConnectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/JDBCExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/JDBCExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/OrderDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/OrderDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/OrderLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/OrderLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/util/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/util/DataAccessObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/TwitterCLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/TwitterCLI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/TwitterCLIRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/TwitterCLIRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/CrdRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/CrdRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/TwitterRestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/TwitterRestDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/helper/HttpHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/helper/HttpHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Coordinates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Entities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Entities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Hashtag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Hashtag.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Tweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Tweet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/UserMention.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/UserMention.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/JsonParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/JsonParser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/TwitterApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/TwitterApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Dividend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Dividend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Financial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Financial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/service/TwitterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/service/TwitterService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/service/TwitterServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/service/TwitterServiceImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -53,24 +65,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1311#1312#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/HttpHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="49">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +77,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/CrdRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,35 +91,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1912">
-              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="-426">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#1287#1288#0" expanded="true" />
+                <element signature="e#1331#1332#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/example/JsonParser.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="87" selection-end-column="3" />
+            <state relative-caret-position="123">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="246">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -126,8 +138,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-142">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="335">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/TwitterApiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,26 +162,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Entities.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLISpringBoot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#868#884#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1199#1200#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1336#1337#0" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-                <element signature="e#1463#1464#0" expanded="true" />
-                <element signature="e#1511#1512#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-                <element signature="e#1656#1657#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -196,7 +206,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Entities.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Hashtag.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/UserMention.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/CrdRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterService.java" />
@@ -207,9 +216,15 @@
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/JsonParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/JrvsHttpHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/grep/JavaGrep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/grep/JavaGrepImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterServiceImp.java" />
       </list>
     </option>
   </component>
@@ -310,17 +325,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_applications" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_applications" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_applications" type="b2602c69:ProjectViewProjectNode" />
@@ -349,6 +361,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ca.jrvs.apps.twitter.dao" />
       <recent name="ca.jrvs.apps.twitter.dao.helper" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -370,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwitterCLI">
+  <component name="RunManager" selected="Application.TwitterCLIBean">
     <configuration name="JDBCExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.jdbc.JDBCExecutor" />
       <module name="java_applications" />
@@ -431,10 +444,23 @@
       </envs>
       <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.twitter.TwitterCLI" />
       <module name="java_applications" />
-      <option name="PROGRAM_PARAMETERS" value="Delete 1147229972874039297" />
+      <option name="PROGRAM_PARAMETERS" value="POST &quot;Tesing tweet&quot; &quot;-10:20&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ca.jrvs.apps.twitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterCLIBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.twitter.spring.TwitterCLIBean" />
+      <module name="java_applications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.twitter.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,9 +472,11 @@
       <item itemvalue="Application.JDBCExecutor" />
       <item itemvalue="Application.TwitterApiTest" />
       <item itemvalue="Application.TwitterCLI" />
+      <item itemvalue="Application.TwitterCLIBean" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwitterCLIBean" />
         <item itemvalue="Application.TwitterCLI" />
         <item itemvalue="Application.TwitterApiTest" />
         <item itemvalue="Application.TwitterApiTest" />
@@ -466,7 +494,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562027801201</updated>
-      <workItem from="1562027802925" duration="75203000" />
+      <workItem from="1562027802925" duration="85794000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1562176364483</created>
@@ -479,38 +507,42 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75203000" />
+    <option name="totallyTimeSpent" value="85794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="113" y="36" width="1421" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
       <window_info id="Designer" />
-      <window_info id="UI Designer" />
+      <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80089486" visible="true" weight="0.021754894" />
-      <window_info id="Structure" order="1" sideWeight="0.19910514" side_tool="true" visible="true" weight="0.021754894" />
-      <window_info anchor="bottom" id="Messages" weight="0.32659408" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80089486" visible="true" weight="0.25960842" />
+      <window_info id="Structure" order="1" sideWeight="0.19910514" side_tool="true" weight="0.30964467" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3295238" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3295238" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32659408" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30482116" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30482116" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3748056" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -593,24 +625,6 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.java</url>
           <line>58</line>
           <properties />
@@ -629,12 +643,6 @@
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.java</url>
           <line>65</line>
           <properties />
@@ -647,16 +655,82 @@
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterServiceImp.java</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java</url>
+          <line>69</line>
           <properties />
-          <option name="timeStamp" value="66" />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java</url>
-          <line>63</line>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="67" />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/ca/jrvs/apps/twitter/example/TwitterApiTest.java</url>
@@ -670,12 +744,22 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>response</expression-string>
+        <expression-string>longitude</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>longitude</expression-string>
+        <expression-string>coordinates</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>latitude</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -704,215 +788,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>CONSUMER_SECRET</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>CONSUMER_KEY</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Hashtag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#820#836#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/UserMention.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1045#1061#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1465#1466#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1751#1752#0" expanded="true" />
-            <element signature="e#1776#1777#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1865#1866#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#1953#1954#0" expanded="true" />
-            <element signature="e#2023#2024#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
-            <element signature="e#2184#2185#0" expanded="true" />
-            <element signature="e#2271#2272#0" expanded="true" />
-            <element signature="e#2329#2330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/ca/jrvs/apps/twitter/dao/TwiiterRestDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="167" column="11" selection-start-line="167" selection-start-column="11" selection-end-line="167" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar!/com/fasterxml/jackson/core/ObjectCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar!/com/fasterxml/jackson/core/TreeCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/dto/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1334#1350#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
-            <element signature="e#1788#1789#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
-            <element signature="e#2002#2003#0" expanded="true" />
-            <element signature="e#2073#2074#0" expanded="true" />
-            <element signature="e#2107#2108#0" expanded="true" />
-            <element signature="e#2194#2195#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-            <element signature="e#2295#2296#0" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#2414#2415#0" expanded="true" />
-            <element signature="e#2475#2476#0" expanded="true" />
-            <element signature="e#2504#2505#0" expanded="true" />
-            <element signature="e#2576#2577#0" expanded="true" />
-            <element signature="e#2612#2613#0" expanded="true" />
-            <element signature="e#2690#2691#0" expanded="true" />
-            <element signature="e#2723#2724#0" expanded="true" />
-            <element signature="e#2816#2817#0" expanded="true" />
-            <element signature="e#2860#2861#0" expanded="true" />
-            <element signature="e#2935#2936#0" expanded="true" />
-            <element signature="e#2967#2968#0" expanded="true" />
-            <element signature="e#3056#3057#0" expanded="true" />
-            <element signature="e#3098#3099#0" expanded="true" />
-            <element signature="e#3177#3178#0" expanded="true" />
-            <element signature="e#3225#3226#0" expanded="true" />
-            <element signature="e#3312#3313#0" expanded="true" />
-            <element signature="e#3370#3371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/dto/Dividend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="25" selection-start-line="33" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1059#1075#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1582#1583#0" expanded="true" />
-            <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#1699#1700#0" expanded="true" />
-            <element signature="e#1743#1744#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1851#1852#0" expanded="true" />
-            <element signature="e#1941#1942#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2050#2051#0" expanded="true" />
-            <element signature="e#2079#2080#0" expanded="true" />
-            <element signature="e#2151#2152#0" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2266#2267#0" expanded="true" />
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2401#2402#0" expanded="true" />
-            <element signature="e#2459#2460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/jdbc/util/DataAccessObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/HttpMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -957,39 +835,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.jar!/oauth/signpost/signature/HmacSha1MessageSigner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.jar!/oauth/signpost/signature/OAuthMessageSigner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.3/commons-codec-1.3.jar!/org/apache/commons/codec/binary/Base64.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="269" selection-start-line="269" selection-end-line="269" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Tweet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2131#2132#0" expanded="true" />
-            <element signature="e#2197#2198#0" expanded="true" />
-            <element signature="e#2229#2230#0" expanded="true" />
-            <element signature="e#2649#2650#0" expanded="true" />
-            <element signature="e#2695#2696#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,17 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/oauth/signpost/signpost-commonshttp4/1.2.1.2/signpost-commonshttp4-1.2.1.2.jar!/oauth/signpost/commonshttp/CommonsHttpOAuthConsumer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.jar!/oauth/signpost/http/HttpParameters.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1093,13 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.jar!/oauth/signpost/AbstractOAuthConsumer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
         </state>
       </provider>
     </entry>
@@ -1151,54 +982,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/TwitterApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/JsonParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Coordinates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#835#851#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1236,20 +1025,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterServiceImp.java">
+    <entry file="file://$USER_HOME$/Downloads/example/JsonParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="25">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="87" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/-.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/oauth/signpost/signpost-commonshttp4/1.2.1.2/signpost-commonshttp4-1.2.1.2.jar!/oauth/signpost/commonshttp/CommonsHttpOAuthConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.jar!/oauth/signpost/AbstractOAuthConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.jar!/oauth/signpost/signature/HmacSha1MessageSigner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.jar!/oauth/signpost/signature/OAuthMessageSigner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Tweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2131#2132#0" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+            <element signature="e#2229#2230#0" expanded="true" />
+            <element signature="e#2557#2558#0" expanded="true" />
+            <element signature="e#2649#2650#0" expanded="true" />
+            <element signature="e#2695#2696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Coordinates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#835#851#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-755">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIComponentScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="175">
+          <caret line="116" column="21" selection-start-line="22" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1240#1241#0" expanded="true" />
@@ -1265,24 +1141,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/example/JsonParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/JrvsHttpHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="87" selection-end-column="3" />
+        <state relative-caret-position="-491">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/-.java">
+    <entry file="file://$PROJECT_DIR$/../java_apps1/src/main/java/ca/jrvs/apps/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java">
+    <entry file="file://$PROJECT_DIR$/../src/main/java/ca/jrvs/apps/JavaGrep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1912">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="162">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="2" selection-end-line="67" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/main/java/ca/jrvs/apps/JavaGrepImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="159" lean-forward="true" selection-start-line="2" selection-end-line="172" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/grep/JavaGrepImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/grep/JavaGrep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLISpringBoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/TwitterApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1294,13 +1230,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="105">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

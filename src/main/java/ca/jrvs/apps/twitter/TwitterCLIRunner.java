@@ -1,16 +1,20 @@
 package ca.jrvs.apps.twitter;
 
 import ca.jrvs.apps.twitter.service.TwitterService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 
+@Component
 public class TwitterCLIRunner {
 
     private TwitterService twitterService;
-
+    @Autowired
     public TwitterCLIRunner(TwitterService twitterService) {
         this.twitterService = twitterService;
     }
 
-
+    @Bean
     public void run(String[] args) {
 
         if (args.length < 2) {
@@ -34,6 +38,7 @@ public class TwitterCLIRunner {
         }
     }
 
+    @Bean
     protected void postTweets(String[] args) {
         Double latitude = 0.0;
         Double longitude = 0.0;
@@ -43,20 +48,21 @@ public class TwitterCLIRunner {
             longitude = 0.0;
 
         } else {
-            latitude = Double.parseDouble(args[2]);
-            longitude = Double.parseDouble(args[3]);
+            String arguments[] = args[2].split(":");
+            latitude = Double.parseDouble(arguments[0]);
+            longitude = Double.parseDouble(arguments[1]);
         }
         twitterService.postTweet(status, latitude, longitude);
 
     }
-
+    @Bean
     protected void showTweets(String[] args) {
         String id = args[1];
         String[] fields = null;
         twitterService.showTweet(id, fields);
 
     }
-
+    @Bean
     protected void deleteTweets(String[] args) {
         String tweetIds = args[1];
         String[] ids = null;
