@@ -1,11 +1,16 @@
 package ca.jrvs.apps.twitter;
 
 import ca.jrvs.apps.twitter.service.TwitterService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-
+@Service
 public class TwitterCLIRunner {
 
     private TwitterService twitterService;
+
+    @Autowired
     public TwitterCLIRunner(TwitterService twitterService) {
         this.twitterService = twitterService;
     }
@@ -57,8 +62,10 @@ public class TwitterCLIRunner {
     }
     protected void deleteTweets(String[] args) {
         String tweetIds = args[1];
-        String[] ids = null;
+        String[] ids = new String[3];
         ids[0] = tweetIds;
         twitterService.deleteTweets(ids);
     }
+
+
 }

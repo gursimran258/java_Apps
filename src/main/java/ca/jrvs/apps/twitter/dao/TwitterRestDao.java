@@ -2,11 +2,15 @@ package ca.jrvs.apps.twitter.dao;
 
 import ca.jrvs.apps.twitter.dao.helper.ApacheHttpHelper;
 import ca.jrvs.apps.twitter.dao.helper.HttpHelper;
+import ca.jrvs.apps.twitter.dao.helper.JrvsHttpHelper;
 import ca.jrvs.apps.twitter.dto.Tweet;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gdata.util.common.base.PercentEscaper;
 import org.apache.http.HttpResponse;
 import org.apache.http.util.EntityUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 import sun.security.provider.PolicySpiFile;
 
 import java.io.IOException;
@@ -16,6 +20,7 @@ import java.net.URISyntaxException;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
+@Component
 public class TwitterRestDao implements CrdRepository<Tweet, String> {
 
     //URI contants
@@ -34,7 +39,8 @@ public class TwitterRestDao implements CrdRepository<Tweet, String> {
 
     HttpHelper httpHelper;
 
-    public TwitterRestDao(HttpHelper httpHelper) {
+    @Autowired
+    public TwitterRestDao( @Qualifier ("JrvsHttpHelper") HttpHelper httpHelper) {
         this.httpHelper = httpHelper;
     }
 

@@ -4,14 +4,20 @@ import ca.jrvs.apps.twitter.dao.CrdRepository;
 import ca.jrvs.apps.twitter.dao.TwitterRestDao;
 import ca.jrvs.apps.twitter.dto.Coordinates;
 import ca.jrvs.apps.twitter.dto.Tweet;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
+import javax.xml.bind.SchemaOutputResolver;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class TwitterServiceImp implements TwitterService {
 
     private CrdRepository crdRepository;
 
+    @Autowired
     public TwitterServiceImp(CrdRepository crdRepository) {
         this.crdRepository = crdRepository;
     }
@@ -41,6 +47,7 @@ public class TwitterServiceImp implements TwitterService {
 //        System.out.println(tweet.toString());
         Tweet tweet = new Tweet();
         crdRepository.findById(id);
+        System.out.println(tweet.toString());
     }
 
     @Override

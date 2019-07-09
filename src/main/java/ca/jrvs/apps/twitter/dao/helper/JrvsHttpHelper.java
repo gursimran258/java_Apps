@@ -13,18 +13,24 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.net.URI;
 import java.util.Arrays;
 
-public class JrvsHttpHelper implements HttpHelper{
+@Component
+@Profile("dev")
+public class JrvsHttpHelper implements HttpHelper {
     private static String CONSUMER_KEY = System.getenv("CONSUMER_KEY");
     private static String CONSUMER_SECRET = System.getenv("CONSUMER_SECRET");
     private static String ACCESS_TOKEN = System.getenv("ACCESS_TOKEN");
     private static String TOKEN_SECRET = System.getenv("TOKEN_SECRET");
     OAuthConsumer consumer = new CommonsHttpOAuthConsumer(CONSUMER_KEY, CONSUMER_SECRET);
 
+    @Autowired
     public JrvsHttpHelper() {
         consumer.setTokenWithSecret(ACCESS_TOKEN, TOKEN_SECRET);
     }
