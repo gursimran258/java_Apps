@@ -2,13 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d728b52-2c7d-4d0b-acd5-3ad489cc34e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/MockitoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/CrdRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/CrdRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/grep/JavaGrep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/grep/JavaGrep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/grep/JavaGrepImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/grep/JavaGrepImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/CustomerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/DatabaseConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/DatabaseConnectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/JDBCExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/JDBCExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/OrderDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/OrderDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/OrderLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/OrderLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/util/DataAccessObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/jdbc/util/DataAccessObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/TwitterCLI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/TwitterCLI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/TwitterCLIRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/TwitterCLIRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/CrdRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/CrdRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/TwitterRestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/TwitterRestDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/helper/HttpHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/helper/HttpHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/helper/JrvsHttpHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dao/helper/JrvsHttpHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Coordinates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Coordinates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Entities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Entities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Hashtag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Hashtag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Tweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/Tweet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/UserMention.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/dto/UserMention.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/JsonParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/JsonParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/TwitterApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/TwitterApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Dividend.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Dividend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Financial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/example/dto/Financial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/service/TwitterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/service/TwitterService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/service/TwitterServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/service/TwitterServiceImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/spring/TwitterCLIBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/spring/TwitterCLIBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ca/jrvs/apps/twitter/spring/TwitterCLIBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,21 +65,15 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/CrdRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1311#1312#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -56,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2331">
-              <caret line="217" column="17" selection-start-line="217" selection-start-column="12" selection-end-line="217" selection-end-column="17" />
+            <state relative-caret-position="136">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1287#1288#0" expanded="true" />
@@ -68,37 +93,71 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/CrdRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-154">
+              <caret line="13" column="28" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLISpringBoot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.7/httpclient-4.5.7.jar!/org/apache/http/impl/client/CloseableHttpResponseProxy.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIComponentScan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar!/org/apache/http/message/BasicHttpResponse.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/MockitoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+            <state relative-caret-position="-27">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,70 +166,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-              <folding>
-                <element signature="e#1926#1927#0" expanded="true" />
-                <element signature="e#1972#1973#0" expanded="true" />
-                <element signature="e#9338#9339#0" expanded="true" />
-                <element signature="e#9389#9390#0" expanded="true" />
-                <element signature="e#9444#9445#0" expanded="true" />
-                <element signature="e#9495#9496#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Coordinates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Tweet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1744#1745#0" expanded="true" />
-                <element signature="e#1769#1770#0" expanded="true" />
-                <element signature="e#1915#1916#0" expanded="true" />
-                <element signature="e#1943#1944#0" expanded="true" />
-                <element signature="e#2104#2105#0" expanded="true" />
-                <element signature="e#2131#2132#0" expanded="true" />
-                <element signature="e#2197#2198#0" expanded="true" />
-                <element signature="e#2229#2230#0" expanded="true" />
-                <element signature="e#2557#2558#0" expanded="true" />
-                <element signature="e#2649#2650#0" expanded="true" />
-                <element signature="e#2695#2696#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.5/commons-lang-2.5.jar!/org/apache/commons/lang/builder/ToStringBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-              <folding>
-                <element signature="e#1553#1554#0" expanded="true" />
-                <element signature="e#1622#1623#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -182,6 +181,7 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -210,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Entities.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Hashtag.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/UserMention.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/CrdRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Tweet.java" />
@@ -222,14 +221,18 @@
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/JrvsHttpHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/grep/JavaGrep.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/grep/JavaGrepImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterServiceImp.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Coordinates.java" />
         <option value="$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterServiceMockitoTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/RunWith.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/CrdRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/MockitoTest.java" />
       </list>
     </option>
   </component>
@@ -241,9 +244,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="113" />
-    <option name="y" value="36" />
-    <option name="width" value="1421" />
+    <option name="x" value="539" />
+    <option name="y" value="23" />
+    <option name="width" value="896" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -252,8 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,8 +320,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_applications" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_applications" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_applications" type="b2602c69:ProjectViewProjectNode" />
@@ -354,6 +364,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,6 +374,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -373,6 +389,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ca.jrvs.apps.twitter.dao" />
       <recent name="ca.jrvs.apps.twitter.dao.helper" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ca.jrvs.apps.twitter.dao" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -393,39 +412,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwitterRestDaoTest.save">
-    <configuration name="JDBCExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.jdbc.JDBCExecutor" />
-      <module name="java_applications" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.jrvs.apps.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwitterApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="CONSUMER_KEY" value="iYp1UhXWirv6Ii4ahSU2ioelT" />
-        <env name="CONSUMER_SECRET" value="75sHIE1oR3ZCfecJGhmcWC07nM12DNtS7ZM0qETsq7dBpVuXp7" />
-        <env name="ACCESS_TOKEN" value="1144630655441100802-J8UF7rtufXFZxF4PfrdbludCH2Z0Cp" />
-        <env name="TOKEN_SECRET" value="asyjbtTp9K0usdRLpbQD1EoEcmKN4znVbmgxzIAkH13lj" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.ca.jrvs.apps.twitter.example.TwitterApiTest" />
-      <module name="java_applications" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.jrvs.apps.ca.jrvs.apps.twitter.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MockitoTest.postTweet">
     <configuration name="TwitterApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
         <env name="CONSUMER_KEY" value="iYp1UhXWirv6Ii4ahSU2ioelT" />
@@ -478,6 +465,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MockitoTest.postTweet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_applications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.twitter.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.twitter.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.twitter.dao.MockitoTest" />
+      <option name="METHOD_NAME" value="postTweet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterRestDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_applications" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.twitter.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.twitter.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.twitter.dao.TwitterRestDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwitterRestDaoTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_applications" />
       <extension name="coverage">
@@ -502,19 +520,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JDBCExecutor" />
-      <item itemvalue="Application.TwitterApiTest" />
       <item itemvalue="Application.TwitterCLI" />
       <item itemvalue="Application.TwitterCLIBean" />
       <item itemvalue="JUnit.TwitterRestDaoTest.save" />
+      <item itemvalue="JUnit.MockitoTest.postTweet" />
+      <item itemvalue="JUnit.TwitterRestDaoTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MockitoTest.postTweet" />
+        <item itemvalue="JUnit.TwitterRestDaoTest" />
         <item itemvalue="JUnit.TwitterRestDaoTest.save" />
         <item itemvalue="Application.TwitterCLIBean" />
         <item itemvalue="Application.TwitterCLI" />
-        <item itemvalue="Application.TwitterApiTest" />
-        <item itemvalue="Application.TwitterApiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +546,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562027801201</updated>
-      <workItem from="1562027802925" duration="95472000" />
+      <workItem from="1562027802925" duration="96429000" />
+      <workItem from="1562679791325" duration="2000" />
+      <workItem from="1562679831807" duration="1713000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1562176364483</created>
@@ -541,21 +561,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwitterRestDaoTest_save - 2019.07.08 at 15h 24m 05s.xml">
-      <configuration name="TwitterRestDaoTest.save" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwitterRestDaoTest_save - 2019.07.08 at 15h 24m 43s.xml">
-      <configuration name="TwitterRestDaoTest.save" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwitterRestDaoTest_save - 2019.07.08 at 15h 24m 47s.xml">
-      <configuration name="TwitterRestDaoTest.save" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwitterRestDaoTest_save - 2019.07.08 at 15h 31m 54s.xml">
-      <configuration name="TwitterRestDaoTest.save" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwitterRestDaoTest_save - 2019.07.08 at 15h 32m 35s.xml">
-      <configuration name="TwitterRestDaoTest.save" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TwitterRestDaoTest_save - 2019.07.08 at 15h 35m 02s.xml">
       <configuration name="TwitterRestDaoTest.save" configurationId="JUnit" />
     </history-entry>
@@ -571,47 +576,61 @@
     <history-entry file="TwitterRestDaoTest_save - 2019.07.08 at 15h 59m 16s.xml">
       <configuration name="TwitterRestDaoTest.save" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MockitoTest_postTweet - 2019.07.09 at 10h 09m 57s.xml">
+      <configuration name="MockitoTest.postTweet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MockitoTest_postTweet - 2019.07.09 at 10h 12m 30s.xml">
+      <configuration name="MockitoTest.postTweet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MockitoTest_postTweet - 2019.07.09 at 10h 13m 00s.xml">
+      <configuration name="MockitoTest.postTweet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MockitoTest_postTweet - 2019.07.09 at 10h 13m 04s.xml">
+      <configuration name="MockitoTest.postTweet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MockitoTest_postTweet - 2019.07.09 at 10h 13m 51s.xml">
+      <configuration name="MockitoTest.postTweet" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95472000" />
+    <option name="totallyTimeSpent" value="98144000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="36" width="1421" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="356" y="23" width="1079" height="735" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80089486" visible="true" weight="0.25960842" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80089486" visible="true" weight="0.31629702" />
       <window_info id="Structure" order="1" sideWeight="0.19910514" side_tool="true" weight="0.30964467" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3295238" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32659408" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.407465" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3748056" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.407465" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3748056" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295238" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32659408" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +681,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java</url>
-          <line>69</line>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
@@ -695,24 +714,6 @@
           <line>21</line>
           <properties />
           <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java</url>
@@ -761,6 +762,12 @@
           <line>221</line>
           <properties />
           <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/MockitoTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/ca/jrvs/apps/twitter/example/TwitterApiTest.java</url>
@@ -821,38 +828,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIComponentScan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/JrvsHttpHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../java_apps1/src/main/java/ca/jrvs/apps/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/main/java/ca/jrvs/apps/JavaGrep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="2" selection-end-line="67" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../src/main/java/ca/jrvs/apps/JavaGrepImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -883,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLISpringBoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/example/TwitterApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -900,45 +868,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/org/apache/commons/codec/binary/BaseNCodec.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1231,24 +1162,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
+        <state relative-caret-position="840">
           <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="e#1926#1927#0" expanded="true" />
-            <element signature="e#1972#1973#0" expanded="true" />
-            <element signature="e#9338#9339#0" expanded="true" />
-            <element signature="e#9389#9390#0" expanded="true" />
-            <element signature="e#9444#9445#0" expanded="true" />
-            <element signature="e#9495#9496#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dto/Tweet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
+        <state relative-caret-position="1350">
           <caret line="102" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1267,29 +1202,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/helper/ApacheHttpHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/service/TwitterServiceMockitoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/RunWith.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/CrdRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="13" column="28" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLISpringBoot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIComponentScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLIRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/TwitterCLI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/TwitterRestDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2331">
-          <caret line="217" column="17" selection-start-line="217" selection-start-column="12" selection-end-line="217" selection-end-column="17" />
+        <state relative-caret-position="136">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1287#1288#0" expanded="true" />
@@ -1298,13 +1283,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/TwitterRestDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ca/jrvs/apps/twitter/dao/CrdRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ca/jrvs/apps/twitter/dao/MockitoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
