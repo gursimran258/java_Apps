@@ -31,7 +31,9 @@ public class TwitterServiceImp implements TwitterService {
             Coordinates coordinates1 = new Coordinates();
             coordinates1.setCoordinates(coordinates);
             tweet.setCoordinates(coordinates1);
-            crdRepository.save(tweet);
+
+                crdRepository.save(tweet);
+
         } else {
             System.out.println("this tweet is not valid");
         }
@@ -52,6 +54,9 @@ public class TwitterServiceImp implements TwitterService {
 
     public static Boolean validatePostTweet(String text, Double longitude, Double latitude) {
         int length = text.length();
+        if(length == 0 ){
+            throw new IllegalArgumentException("Not to be empty");
+        }
         if (length <= 150 && -180 < longitude && longitude < 180 && -180 < latitude && latitude < 180) {
             return true;
         }

@@ -49,7 +49,7 @@ public class TwitterApiTest {
         HttpClient httpClient = new DefaultHttpClient();
         HttpResponse response = httpClient.execute(request1);
         System.out.println(EntityUtils.toString(response.getEntity()));
-       // System.out.println(JsonParser.toObjectFromJson(response.getEntity().toString(), Company.class));
+        // System.out.println(JsonParser.toObjectFromJson(response.getEntity().toString(), Company.class));
 
     }
 }

@@ -60,6 +60,7 @@ public class TwitterRestDao implements CrdRepository<Tweet, String> {
         //Execute HTTP Request
         HttpResponse response = httpHelper.httpPost(uri);
 
+        System.out.println("post" + response.toString());
         //Validate response and deser resoponse
         return parseResponseBody(response, HTTP_OK);
     }
