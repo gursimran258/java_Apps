@@ -43,16 +43,19 @@ Set these credentials in the system environment variables to be used by the appl
 Twitter CLI uses GET, POST, AND DELETE arguments to retrieve tweets based on their ids, post tweets, and delete tweet based on their id.
 
 GET arguments are passed on command line to retrieve tweet based on their id.
+
 ``
 GET "1148659969992089602"
 ``
 
 POST arguments are passed on command line to post a tweet on the timeline passing arguments as status and the coordinates to provide spatial information. 
+
 ``
 POST "testing a tweet" "-10:10
 ``
 
 DELETE is used in arguments to delete tweets based on their id.
+
 ``
  DELETE "1148659969992089602"
 ``
