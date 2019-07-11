@@ -36,6 +36,18 @@ public class JrvsHttpHelper implements HttpHelper {
     }
 
 
+    public void customerSign(HttpPost Post, HttpGet Get) {
+        try {
+            consumer.sign(Post);
+        } catch (OAuthMessageSignerException e) {
+            e.printStackTrace();
+        } catch (OAuthExpectationFailedException e) {
+            e.printStackTrace();
+        } catch (OAuthCommunicationException e) {
+            e.printStackTrace();
+        }
+    }
+
     public HttpResponse httpDelete(URI uri, String id) {
         //  return null;
         HttpPost requestDel  = new HttpPost(uri);
@@ -112,19 +124,5 @@ public class JrvsHttpHelper implements HttpHelper {
         }
 
         return null;
-    }
-
-
-
-    public void customerSign(HttpRequest request) {
-        try {
-            consumer.sign(request);
-        } catch (OAuthMessageSignerException e) {
-            e.printStackTrace();
-        } catch (OAuthExpectationFailedException e) {
-            e.printStackTrace();
-        } catch (OAuthCommunicationException e) {
-            e.printStackTrace();
-        }
     }
 }

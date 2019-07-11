@@ -33,7 +33,6 @@ public class TwitterApiTest {
     private static String TOKEN_SECRET = System.getenv("TOKEN_SECRET");
 
     public static void main(String[] args) throws Exception {
-//
         JsonParser jsonParser = new JsonParser();
         Company company = new Company();
         OAuthConsumer consumer = new CommonsHttpOAuthConsumer(CONSUMER_KEY, CONSUMER_SECRET);
@@ -41,8 +40,6 @@ public class TwitterApiTest {
 
         //create an HTTP GET request
         HttpGet request = new HttpGet("https://api.twitter.com/1.1/users/search.json?q=realDonaldTrump");
-       // consumer.sign(request);
-
         PercentEscaper percentEscaper = new PercentEscaper("", false);
         percentEscaper.escape("hello there");
         HttpPost request1 = new HttpPost("https://api.twitter.com/1.1/statuses/update.json" + percentEscaper);
@@ -52,6 +49,7 @@ public class TwitterApiTest {
         HttpClient httpClient = new DefaultHttpClient();
         HttpResponse response = httpClient.execute(request1);
         System.out.println(EntityUtils.toString(response.getEntity()));
+       // System.out.println(JsonParser.toObjectFromJson(response.getEntity().toString(), Company.class));
 
     }
 }

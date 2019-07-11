@@ -11,6 +11,7 @@ public interface JavaGrep {
 
     /**
      * Top level search flow
+     *
      * @throws IOException
      */
     void process() throws IOException;
@@ -18,26 +19,29 @@ public interface JavaGrep {
     /**
      * Traverse a given directory and return all
      * files
+     *
      * @param rootDir input directory
      * @return files under the rootDir
      */
-    List<File> listFiles (String rootDir);
+    List<File> listFiles(String rootDir);
 
 
     /**
      * Read a file and return all the limes
      * Explain fileReader, BufferedReader
      * and character encoding
+     *
      * @param inputFile file to be read
-     * return lines
+     *                  return lines
      * @throws IllegalArgument Exception if a given input
-     * file is not a file
+     *                         file is not a file
      */
-    List<String> readLines (File inputFile) throws IOException;
+    List<String> readLines(File inputFile) throws IOException;
 
     /**
      * Check if a line contains the regex pattern
      * (passed by user)
+     *
      * @param line input string
      * @return true if there is a match
      */
@@ -45,7 +49,7 @@ public interface JavaGrep {
 
     /**
      * Write lines to a file
-     *
+     * <p>
      * Explore: FileOutputSteam, OutputStreamWriter and BufferedWriter
      *
      * @params lines matched line

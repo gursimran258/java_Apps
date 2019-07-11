@@ -61,7 +61,8 @@ public class JavaGrepImp implements JavaGrep {
     }
 
     /**
-     *  List of files present in dir and subdir using Stream API
+     * List of files present in dir and subdir using Stream API
+     *
      * @param rootDir
      * @return List of files
      * @throws IOException
@@ -96,6 +97,7 @@ public class JavaGrepImp implements JavaGrep {
 
     /**
      * Read lines in a file using Stream API
+     *
      * @param inputFile
      * @return list of lines in a file
      * @throws IOException
