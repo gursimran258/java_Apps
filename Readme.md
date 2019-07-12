@@ -1,7 +1,3 @@
----
-
-
----
 
 <h1 id="introduction">Introduction</h1>
 <p>This repository contains three java applications in three sub packages under root package: Java Grep, JDBC Exercise app, and Twitter CLI app.</p>
