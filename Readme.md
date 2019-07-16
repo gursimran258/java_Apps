@@ -1,10 +1,5 @@
----
-
-
----
-
 <h1 id="introduction">Introduction</h1>
-<p>This repository contains three java applications in three sub packages under the root package: Java Grep, JDBC Exercise app, and Twitter CLI app. Following is the detailed de</p>
+<p>This repository contains three java applications in three sub packages under the root package: Twitter CLI app, JDBC Exercise app, and Java Grep. Following is the detailed description about these applications.</p>
 <h1 id="twitter-cli">Twitter CLI</h1>
 <h2 id="introduction-1">Introduction</h2>
 <p>Twitter CLI is a command line Java application to create, read, and delete posts on Twitter. It perform POST and GET requests on Twitter API endpoints to perform the create, read, and delete operations.</p>
