@@ -63,7 +63,7 @@
 <h2 id="introduction-3">Introduction</h2>
 <p>Java Grep is an application that scans the files in a directory and sub directories under the given directory to search for a pattern and print the matched lines in files into an output file.</p>
 <h2 id="usage-1">Usage</h2>
-<p>The application takes the three arguments: pattern to be matched, rootpath of directory, and output file. It takes the pattern to be matched and scans the files in the given directory and sub directories. It performs the matching of pattern with the text in files and then writes the matched lines to the output file.<br>
+<p>The application takes the three arguments: pattern to be matched, rootpath of directory, and output file. It takes the pattern to be matched and scans the files in the given directory and sub directories. It performs the matching of pattern with the text in files and then writes the matched lines to the output file. Lambda and Stream APIs were also used to read lines and list files.<br>
 <code>regex rootpath outputFile</code></p>
 <h2 id="design-and-implementation-2">Design and Implementation</h2>
 <p>Pseudo code:</p>
